@@ -1,0 +1,34 @@
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/"
+        xmlns:admin="http://webns.net/mvcb/">
+    <foaf:PersonalProfileDocument rdf:about="">
+        <foaf:maker rdf:resource="#me"/>
+        <foaf:primaryTopic rdf:resource="#me"/>
+        <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
+        <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
+    </foaf:PersonalProfileDocument>
+    <foaf:Person rdf:ID="me">
+        <foaf:name>Clément Duez</foaf:name>
+        <foaf:title>M.</foaf:title>
+        <foaf:givenname>Clément</foaf:givenname>
+        <foaf:family_name>Duez</foaf:family_name>
+        <foaf:nick>cduez</foaf:nick>
+        <foaf:mbox_sha1sum>d5f1c28a2c9c289f3b65b9def256021858f3ba5c</foaf:mbox_sha1sum>
+        <foaf:homepage rdf:resource="https://dbx-cd.github.io/"/>
+        <foaf:schoolHomepage rdf:resource="univ-lr"/>
+        <foaf:knows>
+            <foaf:Person>
+                <foaf:name>Vannier</foaf:name>
+                <foaf:mbox_sha1sum>ba8e8069d1254e4a97998cf56959c235edd1f178</foaf:mbox_sha1sum>
+            </foaf:Person>
+        </foaf:knows>
+        <foaf:knows>
+            <foaf:Person>
+                <foaf:name>Grezil</foaf:name>
+                <foaf:mbox_sha1sum>4fad16029c61337cd4f547e989549575598a1cce</foaf:mbox_sha1sum>
+            </foaf:Person>
+        </foaf:knows>
+    </foaf:Person>
+</rdf:RDF>
